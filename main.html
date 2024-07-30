@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Buttons</title>
+    <style>
+        .input {
+            color: red;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <form>
+        <label><input type="radio" name="options" value="1"> Option 1</label><br>
+        <label><input type="radio" name="options" value="2" class="input" disabled> Option 2</label><br>
+        <label><input type="radio" name="options" value="3" checked> Option 3</label><br>
+        <label><input type="radio" name="options" value="4" class="input"> Option 4</label><br>
+        <label><input type="radio" name="options" value="5"> Option 5</label><br>
+        <label><input type="radio" name="options" value="6" class="input"> Option 6</label>
+    </form>
 </body>
-
 </html>
